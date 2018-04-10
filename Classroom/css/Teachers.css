@@ -1,0 +1,57 @@
+h2{
+    margin: 0% auto 1%;
+    padding: 2%;
+    background-color: #43A047;
+    font-family: "Roboto", sans-serif;
+}
+
+.info{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    font-size: 16px;
+    width: 50%;
+    border-collapse: collapse;
+}
+.info th, .info td{
+    margin: 1% auto;
+    padding: 2%;
+}
+
+.search_form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 15%;
+    margin: 1% 20% 1%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.search_form button:hover,.search_form button:active,.search_form button:focus {
+  background: #43A047;
+}
+
+.search_form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.info tr td .error{
+    text-align: left;
+    color: red;
+    font-size: 15px;
+    margin: 10px;
+}

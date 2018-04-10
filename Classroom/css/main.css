@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body{
+    font-size: 90%;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+    text-align: left;
+    background: #76b852; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+    background: -moz-linear-gradient(right, #76b852, #8DC26F);
+    background: -o-linear-gradient(right, #76b852, #8DC26F);
+    background: linear-gradient(to left, #76b852, #8DC26F);
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    
+}
+
+a:hover, a:ative{
+    
+}
+
+.body{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.mainHeader{
+    text-align: left;
+    margin: 10px 10px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px 3px #444;
+}
+
+.mainHeader img{
+    display: inline;
+    vertical-align: middle;
+    width: 10%;
+    height: auto;
+    margin: 2% 0;
+    
+}
+.mainHeader h1{
+    display: inline;
+    color: #12459E;
+}
+.mainHeader nav{
+   background-color: #666;
+   height: 40px;
+}
+
+.mainHeader nav ul{
+    margin: 0 auto;
+    list-style: none;
+}
+
+.mainHeader ul li{
+    float: left;
+    display: inline;
+ }
+ 
+ .mainHeader ul li a{
+ }
+ #nav1{
+     width: 71%;
+     float: left;
+ }
+ #nav2{
+     width: 29%;
+     float: left;
+ }
+ .mainHeader nav a:link, .mainHeader nav a:visited{
+     color: #FFF;
+     display: inline-block;
+     padding: 10px 25px;
+     height: 20px;
+ }
+ 
+ .mainHeader nav a:hover, .mainHeader nav a:active{
+     background-color: #43A047;
+ }
+ 
+ .mainContent{
+    text-align: left;
+    margin: 10px 10px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px 3px #444;
+     
+ }
